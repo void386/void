@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Rock Paper Scossors</title>
+        <link rel="stylesheet" href="rock.css">
+    </head>
+    <body>
+        <div class="game-container">
+        <h1>🪨📄✂️ Rock Paper Scissors</h1>
+        <div class="buttons">
+        <button onclick="play('rock')">🪨 Rock</button>
+        <button onclick="play('paper')">📄 Paper</button>
+        <button onclick="play('Scissors')">✂️ Scissors</button>
+        </div>
+
+        <div id="result" class="result"></div>
+        <div id="scoreboard" class="scoreboard"></div>
+       
+        <button onclick="resetGame()">🔁 Reset Game</button>
+        </div>
+        <button id="theme-toggle">🌓 Toggle Theme</button>
+
+        <script src="rock.js"></script>
+    </body>
+</html>
